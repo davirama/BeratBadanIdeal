@@ -16,11 +16,11 @@ public class BeratBadanIdeal {
         System.out.println("####################################");
         System.out.println("SILAHKAN MASUKAN :");
         System.out.println("Berat Badan (kg) = ");
-        double bb = sc.nextDouble();
+        double bb = 85;
         System.out.println("Tinggi Badan (cm) = ");
-        double tb = sc.nextDouble();
+        double tb = 175;
         System.out.println("Jenis Kelamin (L/P) = ");
-        String jk = sc.next();
+        String jk = L;
         tb /= 100;
         double bmi = bb/(tb*tb);
        
