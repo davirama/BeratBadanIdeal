@@ -15,12 +15,12 @@ public class BeratBadanIdeal {
         System.out.println("\"MENGHITUNG BERAT BADAN IDEAL ANDA\"");
         System.out.println("####################################");
         System.out.println("SILAHKAN MASUKAN :");
-        System.out.println("Berat Badan (kg) = ");
+        System.out.println("Berat Badan (kg) =85 ");
         double bb = 85;
-        System.out.println("Tinggi Badan (cm) = ");
+        System.out.println("Tinggi Badan (cm) =175 ");
         double tb = 175;
-        System.out.println("Jenis Kelamin (L/P) = ");
-        String jk = L;
+        System.out.println("Jenis Kelamin (L/P) =L ");
+        String jk = "L";
         tb /= 100;
         double bmi = bb/(tb*tb);
        
