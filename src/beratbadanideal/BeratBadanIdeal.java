@@ -12,8 +12,9 @@ public class BeratBadanIdeal {
         System.out.println("\"MENGHITUNG BERAT BADAN IDEAL ANDA\"");
         System.out.println("####################################");
         System.out.println("SILAHKAN MASUKAN :");
+         System.out.println("Name = davi");
         String nama = "davi";
-        System.out.println("Usia =");
+        System.out.println("Usia =19");
         String Usia = "19";
         System.out.println("Berat Badan (kg) =85 ");
         double bb = 85;
