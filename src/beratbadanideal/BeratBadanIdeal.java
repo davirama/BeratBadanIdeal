@@ -15,12 +15,17 @@ public class BeratBadanIdeal {
         System.out.println("\"MENGHITUNG BERAT BADAN IDEAL ANDA\"");
         System.out.println("####################################");
         System.out.println("SILAHKAN MASUKAN :");
-        System.out.println("Berat Badan (kg) =85 ");
-        double bb = 85;
-        System.out.println("Tinggi Badan (cm) =175 ");
-        double tb = 175;
-        System.out.println("Jenis Kelamin (L/P) =L ");
-        String jk = "L";
+        System.out.println("Nama Lengkap =");
+        String nama = sc.next();
+        System.out.println("Usia =");
+        String Usia = sc.next();
+        System.out.println("Jenis Kelamin (L/P) + ");
+        String jk = sc.next();
+        System.out.println("Berat Badan (kg) =");
+        double bb =  sc.nextDouble();
+        System.out.println("Tinggi Badan (cm) =");
+        double tb =  sc.nextDouble();
+        
         tb /= 100;
         double bmi = bb/(tb*tb);
        
@@ -32,7 +37,11 @@ public class BeratBadanIdeal {
             norm = 18;
         }
         System.out.println("####################################");
+        System.out.println("Nama  = " +nama);
+        System.out.println("Usia  = " +Usia);
+        System.out.println("Jenis Kelamin  = " +jk);
         System.out.println("BMI = " +bmi);
+      
        
         if(bmi>ob){
             System.out.println("OBESITAS  \n \"Note : Warning!, Sebaiknya segera membuat program menurunkan berat badan karena anda termasuk kategori obesitas/ terlalu gemuk dan tidak baik bagi kesehatan.\" ") ;
