@@ -1,15 +1,6 @@
 package beratbadanideal;
 import java.util.Scanner;
-/**
- *
- * @author Zakaria
- */
 
-
-/**
- *
- * @author Zakaria
- */
 public class BeratBadanIdeal {
     /**
      * @param args the command line arguments
